@@ -2,9 +2,11 @@
 ```
 required py-libs: pandas, pandas_ta, os, time, matplotlib, seaborn, requests
 also required:
-              [alpha-vantage API-Key](https://www.alphavantage.co/) for Requesting Stock Data
-
+              Alpha-Vantage for Requesting Stock Data
 ```
+Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
+
+
 ## portfolio_manager.ipynb
 #### function: manage_portfolio:
 - create your portfolio list
