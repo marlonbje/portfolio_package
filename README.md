@@ -1,8 +1,8 @@
 # portfolio_package
 ```
-required py-libs: pandas, pandas_ta, os, time, matplotlib, seaborn, requests
+required py-libs: pandas, pandas_ta, os, time, matplotlib, seaborn, requests, json
 also required:
-              Alpha-Vantage for Requesting Stock Data
+              Alpha-Vantage API-Key for Requesting Stock Data
 ```
 Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
 
