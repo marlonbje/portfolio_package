@@ -20,10 +20,14 @@ Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
 - optimize your portfolio
 - compare your portfolio tickers to general stock markets
 - improve your portfolio risk
-#### function 2: smoothing atr + portfolio mean
+#### function 2: smoothing atr + portfolio mean:
 - gain insight on your portfolios tickers volatility
 - improve portfolio risk
 - optimize your portfolio for a better sharp
+#### function 3: get_performance + portfolio mean:
+- gain insight on each tickers percentage-performance
+- identify outliers in portfolio growth
+- optimize for higher sharp and less deviation around the mean
 
 
 _additional functions will follow soon_
