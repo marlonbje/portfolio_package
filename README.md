@@ -11,7 +11,7 @@ Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
 #### function: manage_portfolio:
 - create your portfolio list
 - manage your portfolio list
-- **ticker-symbols** required for further use with portfolio_insider.ipynb, not full name
+- **ticker-symbols** required for further use with portfolio-insider.ipynb, not full name
 
 
 ## JupyterNotebook 2: _portfolio-insider.ipynb_
