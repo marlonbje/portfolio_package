@@ -7,14 +7,14 @@ also required:
 Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
 
 
-## JupyterNotebook 1: _portfolio_manager.ipynb_
+## JupyterNotebook 1: _portfolio-manager.ipynb_
 #### function: manage_portfolio:
 - create your portfolio list
 - manage your portfolio list
 - **ticker-symbols** required for further use with portfolio_insider.ipynb, not full name
 
 
-## JupyterNotebook 2: _portfolio_insider.ipynb_
+## JupyterNotebook 2: _portfolio-insider.ipynb_
 - get insights of your portfolios tickers
 #### function 1: correlation matrix:
 - optimize your portfolio
@@ -30,4 +30,4 @@ Get your Alpha-Vantage API-Key _[here](https://www.alphavantage.co/)_
 - optimize for higher sharp and less deviation around the mean
 
 
-_additional functions will follow soon_
+_more functions to follow_
