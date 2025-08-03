@@ -68,4 +68,4 @@ Your feedback is highly appreciated!
 ---
 
 **Happy investing!**  
-_The portfolio_package Team_
+_Marlon Elias Braje_
