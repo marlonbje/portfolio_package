@@ -1,17 +1,17 @@
 # portfolio_package 🚀
 
-**portfolio_package** ist ein Python-Toolkit zur effizienten Verwaltung und tiefgehenden Analyse von Aktienportfolios mit Daten von Alpha Vantage.
+**portfolio_package** is a Python toolkit for efficient portfolio management and in-depth stock analysis using data from Alpha Vantage.
 
 ---
 
-## 🔧 Voraussetzungen
+## 🔧 Requirements
 
-- **Python-Bibliotheken**:  
+- **Python Libraries:**  
   `pandas`, `pandas_ta`, `os`, `time`, `matplotlib`, `seaborn`, `requests`, `json`
 
-- **Alpha Vantage API-Key** (kostenlos):  
-  Um Aktienkursdaten abzufragen, benötigst du einen API-Schlüssel von [Alpha Vantage](https://www.alphavantage.co/).  
-  Hol dir deinen API-Key [hier](https://www.alphavantage.co/).
+- **Alpha Vantage API Key** (free):  
+  To fetch stock data, you need an API key from [Alpha Vantage](https://www.alphavantage.co/).  
+  Get your API key [here](https://www.alphavantage.co/).
 
 ---
 
@@ -19,33 +19,53 @@
 
 ### 1. `pf-manager.ipynb`  
 **Portfolio Manager**  
-- Erstelle, bearbeite und verwalte deine Portfolio-Liste  
-- Arbeite ausschließlich mit **Ticker-Symbolen** (z.B. `AAPL`, nicht Apple Inc.)  
-- Bereitet die Datenbasis für die Analyse im zweiten Notebook vor  
+- Create, edit, and manage your portfolio list  
+- Use **ticker symbols** only (e.g., `AAPL`, not "Apple Inc.")  
+- Prepares the data foundation for further analysis in the second notebook  
 
 ---
 
 ### 2. `pf-insider.ipynb`  
-**Portfolio Analyse & Insights**
+**Portfolio Analysis & Insights**
 
-| Funktion                | Beschreibung                                                                                  | Nutzen                                                                                  |
-|------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **Korrelationsmatrix**  | Visualisiert die Zusammenhänge zwischen deinen Portfolio-Tickern und den Märkten             | Portfolio-Risiko besser verstehen und optimieren                                       |
-| **Smoothing ATR + Mean**| Glättet die Average True Range (ATR) und berechnet den Portfoliodurchschnitt                 | Volatilität der Aktien verstehen und Sharpe Ratio verbessern                           |
-| **Performance Analyse** | Prozentuale Performance einzelner Ticker im Vergleich zum Portfolio-Durchschnitt             | Wachstumstreiber und Ausreißer erkennen, Portfolio optimieren                          |
+| Feature                  | Description                                                                              | Benefits                                                      |
+|--------------------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| **Correlation Matrix**   | Visualizes correlations between your portfolio tickers and general market indices        | Better understand and optimize portfolio risk                 |
+| **Smoothing ATR + Mean** | Smooths the Average True Range (ATR) and calculates portfolio average                     | Understand volatility and improve Sharpe ratio                |
+| **Performance Analysis** | Analyzes percentage performance of individual tickers vs. portfolio mean                  | Identify growth drivers and outliers, optimize portfolio      |
 
 ---
 
-## 🚀 Features & Ziele
+## 🚀 Features & Goals
 
-- Einfache Portfolioverwaltung direkt im Jupyter Notebook  
-- Umfassende Risiko- und Performance-Analysen  
-- Grundlage für datengetriebene Investmententscheidungen  
-- Ausbau mit weiteren Analysefunktionen geplant  
+- Easy portfolio management within Jupyter Notebooks  
+- Comprehensive risk and performance analysis  
+- Data-driven investment decision support  
+- More analysis functions planned for future releases  
 
 ---
 
 ## 🛠 Installation & Setup
 
-```bash
-pip install pandas pandas_ta matplotlib seaborn requests
+Run this to install dependencies:
+- Insert your API key in the notebooks  
+- Create your portfolio using ticker symbols and start analyzing  
+
+---
+
+## 📚 Resources
+
+- [Alpha Vantage API](https://www.alphavantage.co/)  
+- Python libraries: `pandas`, `matplotlib`, `seaborn`, etc.
+
+---
+
+## 🙋‍♂️ Feedback & Contributions
+
+Got ideas, suggestions, or feature requests?  
+Your feedback is highly appreciated!
+
+---
+
+**Happy investing!**  
+_The portfolio_package Team_
